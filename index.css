@@ -1,0 +1,138 @@
+body{
+    border-width: 3px;
+    border-style: solid;
+    border-color: lawngreen;
+    outline:3px solid green;
+    background:url("https://images.creativemarket.com/0.1.0/ps/6817836/1820/1213/m1/fpnw/wm1/ppjyzfwgu3bslgx649uvkwoixqqyaecyqhdumlgebllo3eacpfu8n08enom0fnhj-.jpg?1565781144&s=37b74a19c3153bef88295533b08f6155");
+
+
+}
+.parent-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.a{
+    margin: 20px;
+    padding: 10px;
+    font-size: larger;
+    color: white;
+background-color: black;
+border:5px solid red;
+border-radius: 20px;
+width: 250px;
+font-weight: 700;
+font-style: italic;
+display: inline;
+}
+
+.b{
+    margin: 20px;
+    padding: 20px;
+    font-size: larger;
+    color: white;
+background-color: black;
+border:5px solid red;
+border-radius: 20px;
+font-weight: 700;
+font-style: italic;
+display: inline;
+height: 30px;
+}
+
+.c{
+    margin: 20px;
+    padding: 10px;
+    font-size: larger;
+    color: white;
+background-color: black;
+border:5px solid red;
+border-radius: 20px;
+width: 200px;
+font-weight: 700;
+font-style: italic;
+}
+.parent2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.d{
+    margin-top: 150px;
+    margin-left: 30px;
+    padding: 20px;
+    font-size: larger;
+    color: black;
+background-color: seagreen;
+border:5px solid gray;
+border-radius: 50%;
+font-weight: 500;
+font-style: italic;
+text-decoration: underline;
+text-align: center;
+height: 300px;
+width: 300px;
+}
+
+.e{
+    margin: 50px;
+    margin-left: 250px;
+    padding: 20px;
+    font-size: larger;
+    color: palevioletred;
+background-color:white;
+border:5px dashed red;
+width: 300px;
+font-weight: 600;
+font-style:normal;
+
+}
+
+.f{
+    margin-left: 600px;
+    padding: 5px;
+    font-size: larger;
+    color: white;
+background-color: black;
+border:5px solid red;
+border-radius: 20px;
+width: 350px;
+height: 50px;
+text-align: center;
+font-weight: 700;
+font-style: italic;
+display: inline;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.parent3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.g{
+    margin: 50px;
+    padding: 10px;
+    font-size: larger;
+    color: darkblue;
+background-color: lightblue;
+border:5px solid green;
+border-radius: 20px;
+border-width: 2px;
+width: 350px;
+font-weight: 300;
+font-style: normal;
+display: inline;
+
+}
